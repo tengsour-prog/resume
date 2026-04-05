@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>鄧宇萱 Rowan Teng | Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 參照範例：使用乾淨的非襯線字體，並微調字距增加高級感 */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Noto+Sans+TC:wght@300;400;700&display=swap');
+        
+        :root {
+            --text-main: #2d3748;
+            --text-light: #718096;
+            --accent: #2b6cb0;
+        }
+
+        body { 
+            font-family: 'Inter', 'Noto Sans TC', sans-serif; 
+            color: var(--text-main);
+            line-height: 1.7;
+            background-color: #ffffff;
+        }
+
+        .section-title {
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            border-bottom: 1px solid #edf2f7;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            font-weight: 600;
+            color: var(--text-light);
+        }
+
+        /* 手機端優化：隱藏多餘線條，保持視覺純淨 */
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem; }
+            h1 { font-size: 1.875rem !important; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 antialiased">
+
+    <div class="max-w-4xl mx-auto my-10 bg-white shadow-sm border border-gray-100 min-h-screen">
+        
+        <header class="p-8 md:p-16 border-b border-gray-50">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-end">
+                <div>
+                    <h1 class="text-4xl font-light tracking-tight text-slate-900">鄧宇萱 <span class="text-2xl text-slate-400 ml-1">Rowan Teng</span></h1>
+                    <p class="text-blue-700 mt-2 font-medium">專案管理 / ERP 顧問 / 視覺攝影</p>
+                </div>
+                <div class="mt-6 md:mt-0 text-left md:text-right text-sm text-slate-500">
+                    <p>tengsour@gmail.com</p>
+                    <p>臺北實踐大學 畢業</p>
+                    <p>Taiwan</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="p-8 md:p-16 space-y-16">
+            
+            <section>
+                <h2 class="section-title text-sm">About</h2>
+                <p class="text-slate-600 leading-relaxed">
+                    在教育、地方政府與企業顧問領域累積了多元實務經驗。無論在公部門或民間企業，始終以精確執行力與細緻觀察力推動任務。
+                </p>
+            </section>
+
+            <section>
+                <h2 class="section-title text-sm">Experience</h2>
+                
+                <div class="space-y-12">
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="text-lg font-bold">彼伯樂工作室</h3>
+                            <span class="text-xs text-slate-400">2025.11 - Present</span>
+                        </div>
+                        <p class="text-sm text-slate-500 mb-2">兼職攝影師</p>
+                        <ul class="text-sm text-slate-600 list-disc ml-4 space-y-1">
+                            <li>空間照片於時尚雜誌 Bella 網站刊登</li>
+                            <li>包租代管空間照片刊後於一週內成交</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="text-lg font-bold">韓商億看有限公司 (ECOUNT)</h3>
+                            <span class="text-xs text-slate-400">2023.03 - 2024.05</span>
+                        </div>
+                        <p class="text-sm text-slate-500 mb-2">ERP 高級顧問</p>
+                        <p class="text-sm text-slate-600 mb-2">協助包含 **Tesla 臺灣** 與 **50 嵐** 供應商在內之 230 間企業導入系統。</p>
+                        <div class="flex flex-wrap gap-2 mt-2">
+                            <span class="text-[10px] px-2 py-1 bg-gray-100 text-gray-500 rounded">需求分析</span>
+                            <span class="text-[10px] px-2 py-1 bg-gray-100 text-gray-500 rounded">跨部門協調</span>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="text-lg font-bold">苗栗縣政府教育處</h3>
+                            <span class="text-xs text-slate-400">2021.03 - 2023.03</span>
+                        </div>
+                        <p class="text-sm text-slate-500 mb-2">專案管理人員</p>
+                        <ul class="text-sm text-slate-600 list-disc ml-4 space-y-1">
+                            <li>成功爭取客家委員會獎金累計總計 1,000 萬元新台幣。</li>
+                            <li>2022 年全國客家藝文競賽成績創 8 年新高。</li>
+                        </ul>
+                    </div>
+
+                    <div class="pt-4 border-t border-dashed border-gray-100">
+                        <div class="flex justify-between items-baseline">
+                            <h3 class="text-md font-semibold text-slate-700">Emporium Melbourne</h3>
+                            <span class="text-xs text-slate-400">2024.06 - 2025.06</span>
+                        </div>
+                        <p class="text-xs text-slate-400 mt-1 italic">打工度假經歷：鍛鍊跨文化溝通與自我調適能力。</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="section-title text-sm">Education</h2>
+                <div class="flex justify-between items-baseline">
+                    <h3 class="text-sm font-bold">臺北實踐大學</h3>
+                    <span class="text-xs text-slate-400">畢業</span>
+                </div>
+                <p class="text-sm text-slate-600">家庭研究與兒童發展學系</p>
+            </section>
+
+        </main>
+
+        <footer class="p-8 md:p-16 bg-gray-50 text-center">
+            <p class="text-[10px] text-slate-400 tracking-widest uppercase">© 2026 Rowan Teng Portfolio</p>
+        </footer>
+    </div>
+
+</body>
+</html>
